@@ -10,9 +10,12 @@ function App() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    jsConfetti.addConfetti({});
+    jsConfetti.addConfetti({
+      emojis: ["💩"],
+      emojiSize: 100,
+    });
     setValue("");
-    setSubmitted(true);
+    // setSubmitted(true);
   };
 
   return (

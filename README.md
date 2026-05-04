@@ -1,1 +1,1 @@
-Bisect example - revision 5
+Bisect example - revision 6

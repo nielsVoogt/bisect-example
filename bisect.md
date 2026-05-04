@@ -40,3 +40,7 @@ git bisect run npm run test:e2e
 ---
 
 # 🧑‍💻 Demo time!
+
+```
+git bisect good 40c4621
+```
